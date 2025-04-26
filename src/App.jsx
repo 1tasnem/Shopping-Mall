@@ -7,7 +7,7 @@ import Navbar from './components/Header/Navbar'
 
 function App() {
   const [isActive,setIsActive] = useState({
-    cart:true,
+    card:true,
     status:"active",
   })
  //console.log(isactive)
@@ -15,13 +15,13 @@ function App() {
   if(status == 'card')
   {
     setIsActive({
-      cart:true,
+      card:true,
       status:"card",
     })
   }
   else{
     setIsActive({
-      cart:false,
+      card:false,
       status:"about",
     })
 
@@ -36,7 +36,7 @@ function App() {
       <Navbar></Navbar> 
       <div className='flex'>
       <AllProducts></AllProducts> 
-      <CarfContener handleIsActiveState = {handleIsActiveState}></CarfContener>
+      <CarfContener isActive={isActive} handleIsActiveState = {handleIsActiveState}></CarfContener>
       
       
 </div>
