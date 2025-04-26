@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "name": "Elegant Leather Wallet",
+      "image": "https://images.unsplash.com/photo-1581291519195-ef11498d1cf5",
+      "description": "https://i.ibb.co.com/PvvcW2pQ/ethan-rougon-o-Ilix2slms-I-unsplash.jpg",
+      "price": 49.99,
+      "category": "Fashion",
+      "isFeature": true
+    },
+    {
+      "id": 2,
+      "name": "Organic Face Serum",
+      "image": "https://i.ibb.co.com/VY2ZcZ5m/laura-jaeger-d-SHqe4mc-WE-unsplash.jpg",
+      "description": "A rejuvenating serum made from natural ingredients for radiant skin.",
+      "price": 29.99,
+      "category": "Cosmetic",
+      "isFeature": false
+    },
+    {
+      "id": 3,
+      "name": "Smart Fitness Watch",
+      "image": "https://i.ibb.co.com/yFTkW2DK/april-laugh-vck100-EJj-Z4-unsplash.jpg",
+      "description": "Track your workouts, heart rate, and sleep with this sleek fitness watch.",
+      "price": 199.99,
+      "category": "Market Product",
+      "isFeature": true
+    },
+    {
+      "id": 4,
+      "name": "Vintage Sunglasses",
+      "image": "https://i.ibb.co.com/5gmS5N4v/mark-adriane-bymv2x-Vkv-E-unsplash.jpg",
+      "description": "Classic design sunglasses with UV protection, perfect for any style.",
+      "price": 59.99,
+      "category": "Fashion",
+      "isFeature": false
+    },
+    {
+      "id": 5,
+      "name": "Luxury Handbag",
+      "image": "https://i.ibb.co.com/xtXw5NrS/laura-chouette-Vkhx-T-e-Psv0-unsplash.jpg",
+      "description": "Stylish and spacious handbag crafted from premium materials.",
+      "price": 299.99,
+      "category": "Fashion",
+      "isFeature": true
+    },
+    {
+      "id": 6,
+      "name": "Herbal Shampoo",
+      "image": "https://i.ibb.co.com/4n4yLCd4/mariah-hewines-5sf-OSz-Dbm-HQ-unsplash.jpg",
+      "description": "Gentle herbal shampoo that promotes healthy hair and scalp.",
+      "price": 15.99,
+      "category": "Cosmetic",
+      "isFeature": false
+    }
+  ]
+  
