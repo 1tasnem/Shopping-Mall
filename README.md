@@ -1,4 +1,6 @@
 🛒 Simple Shopping Mall (React)
+
+
 📚 Overview
 A simple shopping mall website built with React.
 Features include adding products to the cart, dynamically updating the total price, and removing products from the cart.
