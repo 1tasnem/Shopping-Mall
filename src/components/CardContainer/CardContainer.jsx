@@ -4,16 +4,16 @@ import About from '../About/About';
 import Card from '../card/card';
 
 
-const CarfContener = ({handleIsActiveState , isActive}) => {
+const CarfContener = ({handleIsActiveState , isActive,selectedProducts,handleDelete}) => {
     //console.log(isActive)
     return (
         <div>
-            <h2>CardContainer</h2>
-            <div className='flex gap-10'>
+           
+            <div className='flex gap-10 m-10'>
             <div onClick={() => handleIsActiveState("card")}className={`${isActive.card?" btn active":"btn "}`}>CART</div>
             <div onClick={() =>handleIsActiveState("About")}className={`${isActive.card?"btn ":" active btn "}`}> ABOUT</div>
         </div>
-      {isActive.card ? <Card></Card>:
+      {isActive.card ? <Card selectedProducts={selectedProducts} handleDelete={handleDelete}></Card>:
        
        <About></About>}
         

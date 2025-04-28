@@ -1,6 +1,6 @@
 import './Navbar.css'
 
-const Navbar = () => {
+const Navbar = ({selectedProducts ,price}) => {
     return (
         <div className="bg flex justify-around font-bold p-4 m-4 " >
             <div>
@@ -16,12 +16,12 @@ const Navbar = () => {
             <a href="#" >PRODUCT</a>
 
             </li>
-            <li>
-            <a href="#" >CART</a>
+            <li> CART {selectedProducts.length}
+           
 
             </li>
             <li>
-      <p>$ 500</p>
+      <p>$ {price}</p>
 
             </li>
             </ul>
